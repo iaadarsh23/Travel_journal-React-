@@ -1,8 +1,8 @@
 export default function EntryPage(props) {
 	return (
-		<article className="flex flex-col md:flex-row gap-4 p-4 bg-white shadow-md rounded-lg max-w-screen-md">
+		<article className="flex gap-4 shrink-0 m-7">
 			<img
-				src={props.image}
+				src={props.img}
 				alt="mount fuji"
 				className="w-full md:w-[125px] h-44 rounded-md object-cover"
 			/>
